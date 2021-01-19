@@ -22,7 +22,7 @@ requirements:
   run:
     - matplotlib-base
     - numpy >=1.12.1
-    - python >=3.6
+    - python
     - schema
 
 test:
