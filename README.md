@@ -5,11 +5,9 @@ Home: https://github.com/QCoDeS/broadbean
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/broadbean-feedstock/blob/master/LICENSE.txt)
 
 Summary: Package for easily generating and manipulating signal pulses. Developed for use with qubits in the quantum computing labs of Copenhagen, Delft, and Sydney, but should be generally useable.
-
-
 
 Current build status
 ====================
@@ -117,4 +115,5 @@ Feedstock Maintainers
 =====================
 
 * [@basnijholt](https://github.com/basnijholt/)
+* [@jenshnielsen](https://github.com/jenshnielsen/)
 
