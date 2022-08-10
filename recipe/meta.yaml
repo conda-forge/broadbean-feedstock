@@ -25,6 +25,7 @@ requirements:
     - numpy >=1.12.1
     - python >=3.7
     - schema
+    - versioningit
 
 test:
   imports:
