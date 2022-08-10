@@ -1,5 +1,5 @@
 {% set name = "broadbean" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 10b60c93255dc805f186788f68621fd14169df2365ca50bf387f5365d41194e3
+  sha256: 7be2c07265b14fe4a4696b53a0f820fb1dd046ee5f0929bec3874b09cc99af0f
 
 build:
   number: 0
@@ -19,11 +19,13 @@ requirements:
   host:
     - pip
     - python
+    - versioningit
   run:
     - matplotlib-base
     - numpy >=1.12.1
-    - python >=3.6
+    - python >=3.7
     - schema
+    - versioningit
 
 test:
   imports:
