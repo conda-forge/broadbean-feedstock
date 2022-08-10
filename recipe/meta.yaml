@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python
+    - versioningit
   run:
     - matplotlib-base
     - numpy >=1.12.1
