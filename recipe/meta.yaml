@@ -1,5 +1,5 @@
 {% set name = "broadbean" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7be2c07265b14fe4a4696b53a0f820fb1dd046ee5f0929bec3874b09cc99af0f
+  sha256: 7e828b88c4f96c1e3cfa6fbb97be236bee942b672c9f0b812aedd1e105f403a9
 
 build:
   number: 0
